@@ -50,54 +50,6 @@ console.log('Friend with the largest name ', megaName);
 
 
 
-// Object
-const friend: {name: string, age: number} = {
-    name: 'Samuel David',
-    age: 17
-}
-
-friend.name = 'David'
-friend.age = 18;
-
-
-let player: {
-    club: string,
-    salary: number
-} = {
-    club: 'Barcelona',
-    salary: 45000000
-}
-
-
-interface Player {
-    name: string,
-    club: string,
-    salary: number,
-    wife?: string,
-    isPlaying: boolean
-}
-
-const messi: Player = {
-    name: 'Lionel Andrés Messi',
-    club: 'Barcelona',
-    salary: 45000000,
-    wife: 'Antonella Roccuzzo',
-    isPlaying: true
-}
-
-const ronaldo: Player = {
-    name: 'Cristiano Ronaldo',
-    club: 'Barcelona',
-    salary: 43000000,
-    isPlaying: true
-}
-
-function getBonus(player: Player, friends: string[]) {
-    return player.salary * 0.1;
-}
-
-getBonus(messi, ['Sam', 'Tam'])
-
 
 // class
 class Person {
