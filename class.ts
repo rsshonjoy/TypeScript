@@ -14,5 +14,7 @@ class Player {
   }
 }
 
-const mashrafi = new Player('Mashrafi', 40, 'Bangladesh')
+const mashrafi = new Player('Mashrafi', 40, 'Bangladesh');
 console.log(mashrafi);
+const sakib = new Player('Sakib', 36, 'Bangladesh');
+console.log(sakib);
