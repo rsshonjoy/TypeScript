@@ -47,9 +47,26 @@
 
 /** ----- Function Signature ----- */
 
-let add1: (x: number, y: number) => number;
+// Step 1
 
-add1 = (a: number, b: number) => {
-  return a + b;
-}
-console.log(add1(3, 4));
+// let add1: (x: number, y: number) => number;
+
+// add1 = (a: number, b: number) => {
+//   return a + b;
+// }
+// console.log(add1(3, 4));
+
+
+// Step 2
+
+let calculator: (x: number, y: number, z: string) => number;
+
+calculator = (a: number, b: number, c:string) => {
+  if (c === "add") {
+    return a + b;
+  }else {
+    return a - b;
+  }
+};
+
+console.log(calculator(4, 5, "minus"));
