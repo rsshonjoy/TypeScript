@@ -15,6 +15,13 @@ class Player {
 }
 
 const mashrafi = new Player('Mashrafi', 40, 'Bangladesh');
-console.log(mashrafi);
+// console.log(mashrafi);
 const sakib = new Player('Sakib', 36, 'Bangladesh');
-console.log(sakib);
+// console.log(sakib);
+
+const players: Player[] = [];
+
+players.push(sakib);
+players.push(mashrafi);
+
+console.log(players);
