@@ -9,7 +9,7 @@ class Players {
         console.log(`${this.name} from ${this.country} is playing!`);
     }
 }
-const mashrafi = new Players('Mashrafi', 40, 'Bangladesh');
-console.log(mashrafi);
-const sakib = new Players('Sakib', 36, 'Bangladesh');
-console.log(sakib);
+const tamim = new Players('Tamim', 40, 'Bangladesh');
+console.log(tamim);
+const liton = new Players('Liton', 36, 'Bangladesh');
+console.log(liton);
