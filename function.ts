@@ -36,10 +36,20 @@
 
 /** ----- Default Parameterize Function ----- */
 
-const myFunction = (a: string, b: string, c: string = "Anyone") => {
-  console.log(`Hello ${a} ${b}`);
-  console.log(c);
+// const myFunction = (a: string, b: string, c: string = "Anyone") => {
+//   console.log(`Hello ${a} ${b}`);
+//   console.log(c);
   
-}
+// }
 
-myFunction("RS", "Shonjoy")
+// myFunction("RS", "Shonjoy")
+
+
+/** ----- Function Signature ----- */
+
+let add1: (x: number, y: number) => number;
+
+add1 = (a: number, b: number) => {
+  return a + b;
+}
+console.log(add1(3, 4));

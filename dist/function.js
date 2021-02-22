@@ -21,8 +21,14 @@
 // }
 // myFunction("RS", "Shonjoy")
 /** ----- Default Parameterize Function ----- */
-const myFunction = (a, b, c = "Anyone") => {
-    console.log(`Hello ${a} ${b}`);
-    console.log(c);
+// const myFunction = (a: string, b: string, c: string = "Anyone") => {
+//   console.log(`Hello ${a} ${b}`);
+//   console.log(c);
+// }
+// myFunction("RS", "Shonjoy")
+/** ----- Function Signature ----- */
+let add1;
+add1 = (a, b) => {
+    return a + b;
 };
-myFunction("RS", "Shonjoy");
+console.log(add1(3, 4));
