@@ -5,8 +5,13 @@
 // }
 // myFunction()
 /** ----- Step 2 ----- */
-let myFunction;
-myFunction = () => {
-    console.log("Hello");
+// let myFunction : Function;
+// myFunction = () => {
+//   console.log("Hello");
+// }
+// myFunction()
+/** ----- Parameterize Function ----- */
+const myFunction = (a, b) => {
+    console.log(`Hello ${a} ${b}`);
 };
-myFunction();
+myFunction("RS", "Shonjoy");

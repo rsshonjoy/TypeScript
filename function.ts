@@ -8,11 +8,18 @@
 
 /** ----- Step 2 ----- */
 
+// let myFunction : Function;
 
-let myFunction : Function;
+// myFunction = () => {
+//   console.log("Hello");
+// }
 
-myFunction = () => {
-  console.log("Hello");
+// myFunction()
+
+/** ----- Parameterize Function ----- */
+
+const myFunction = (a: string, b: string) => {
+  console.log(`Hello ${a} ${b}`);
 }
 
-myFunction()
+myFunction("RS", "Shonjoy")
